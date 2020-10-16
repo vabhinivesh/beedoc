@@ -31,17 +31,36 @@ exec $SHELL
 Want to quickly see how it works? Then just set things up like this:
 ```
 cd $GOPATH/src
+```
+```
 bee new hello
+```
+```
 cd hello
+```
 bee run
 ```
 
 Windows users：
 ```
 cd %GOPATH%/src
+```
+```
 bee new hello
+```
+```
 cd hello
+```
+```
 bee run
+```
+
+If you encounter any error related to RPC2 on MAC like "*RPCClient does not implement service.Client (wrong type for ExamineMemory method)"
+
+Please export the GO111MODULE by
+
+```
+export GO111MODULE=on
 ```
 
 These commands help you:
